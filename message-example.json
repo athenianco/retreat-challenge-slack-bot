@@ -1,0 +1,14 @@
+{
+  "channel": "retreat-2022-challenge-slack-bot-test",
+  "title": "Test command",
+  "text": "test",
+  "link": "https://cutt.ly/A1it7td",
+  "color": "good",
+  "fields": {
+    "luck": "10%",
+    "skill": "20%",
+    "concentrated power of will": "15%",
+    "pleasure": "5%",
+    "pain": "50%"
+  }
+}
