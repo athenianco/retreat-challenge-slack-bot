@@ -1,0 +1,27 @@
+{
+  "name": "retreat-challenge-slack-bot",
+  "version": "1.0.0",
+  "description": "[Jira issue](https://athenianco.atlassian.net/browse/DEV-5434)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc src/Test.ts --lib es2015,dom --outDir ./build",
+    "run": "node ./build/Test.js --inspect-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athenianco/retreat-challenge-slack-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athenianco/retreat-challenge-slack-bot/issues"
+  },
+  "homepage": "https://github.com/athenianco/retreat-challenge-slack-bot#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
